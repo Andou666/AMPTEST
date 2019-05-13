@@ -1,0 +1,84 @@
+<!doctype html>
+<html ⚡ lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <title>AMPsCAT</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "AMPを使いたかった"
+      }
+    </script>
+
+    <script
+    async
+    custom-element="amp-script"
+    src="https://cdn.ampproject.org/v0/amp-script-0.1.js"
+  ></script>    
+    
+    <style amp-boilerplate>
+        h1, p{
+            text-align: center;
+        }
+
+        .wrapper {
+        display: grid;
+        justify-content: center;
+        align-content: center;  
+        justify-items: center;
+        align-items: center;    
+        grid-template-rows: 200px 200px 200px;
+        grid-template-columns: 200px 200px 200px;
+        grid-template-areas:
+        "a b c"
+        "e f g"
+        "h i j";
+        grid-gap: 20px;
+      
+        background-color: #fff;
+        color: #444;
+        }
+
+        .box {
+            border-radius: 15px;
+        }               
+    </style>
+  </head>
+
+  <body>
+    <h1>AMP Cats Catalog</h1>
+    <div  id="cats" class="wrapper">
+            <div id="cat_a" class="box">
+                    <amp-img on="tap:cat_a.hide" width="200" height="200" src ="https://loremflickr.com/100/100?random=1"> </amp-img>
+            </div>
+            <div id="cat_b" class="box">
+                    <amp-img on="tap:cat_b.hide" width="200" height="200" src ="https://loremflickr.com/100/100?random=2"> </amp-img>
+            </div>
+            <div id="cat_c" class="box">
+                    <amp-img on="tap:cat_c.hide" width="200" height="200" src ="https://loremflickr.com/100/100?random=3"> </amp-img>
+            </div>
+            <div id="cat_d" class="box">
+                    <amp-img on="tap:cat_d.hide" width="200" height="200" src ="https://loremflickr.com/100/100?random=4"> </amp-img>
+            </div>
+            <div id="cat_e" class="box">
+                    <amp-img on="tap:cat_e.hide" width="200" height="200" src ="https://loremflickr.com/100/100?random=5"> </amp-img>
+            </div>
+            <div id="cat_f" class="box">
+                    <amp-img on="tap:cat_f.hide" width="200" height="200" src ="https://loremflickr.com/100/100?random=6"> </amp-img>
+            </div>
+            <div id="cat_g" class="box">
+                    <amp-img on="tap:cat_g.hide" width="200" height="200" src ="https://loremflickr.com/100/100?random=7"> </amp-img>
+            </div>
+            <div id="cat_h" class="box">
+                    <amp-img on="tap:cat_h.hide" width="200" height="200" src ="https://loremflickr.com/100/100?random=8"> </amp-img>
+            </div>
+            <div id="cat_i" class="box">
+                    <amp-img on="tap:cat_i.hide" width="200" height="200" src ="https://loremflickr.com/100/100?random=9"> </amp-img>
+            </div>
+    </div>
+    <p><a href="./diff.html">比較</a></p>   
+  </body>
+</html>

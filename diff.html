@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>CAT</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">   
+    
+    <style>
+        h1, p{
+            text-align: center;
+        }
+
+        .wrapper {
+        display: grid;
+        justify-content: center;
+        align-content: center;  
+        justify-items: center;
+        align-items: center;    
+        grid-template-rows: 200px 200px 200px;
+        grid-template-columns: 200px 200px 200px;
+        grid-template-areas:
+        "a b c"
+        "e f g"
+        "h i j";
+        grid-gap: 20px;
+      
+        background-color: #fff;
+        color: #444;
+        }
+
+        .box {
+            border-radius: 15px;
+        }               
+    </style>
+  </head>
+
+  <body>
+    <h1>Cats Catalog</h1>
+    <div  id="cats" class="wrapper">
+            <div id="cat_a" class="box">
+                    <img onclick='document.getElementById("cat_a").style.display = "none"' width="200" height="200" src ="https://loremflickr.com/100/100?random=1"> </amp-img>
+            </div>
+            <div id="cat_b" class="box">
+                    <img onclick='document.getElementById("cat_b").style.display = "none"' width="200" height="200" src ="https://loremflickr.com/100/100?random=2"> </amp-img>
+            </div>
+            <div id="cat_c" class="box">
+                    <img  onclick='document.getElementById("cat_c").style.display = "none"' width="200" height="200" src ="https://loremflickr.com/100/100?random=3"> </amp-img>
+            </div>
+            <div id="cat_d" class="box">
+                    <img onclick='document.getElementById("cat_d").style.display = "none"' width="200" height="200" src ="https://loremflickr.com/100/100?random=4"> </amp-img>
+            </div>
+            <div id="cat_e" class="box">
+                    <img onclick='document.getElementById("cat_e").style.display = "none"' width="200" height="200" src ="https://loremflickr.com/100/100?random=5"> </amp-img>
+            </div>
+            <div id="cat_f" class="box">
+                    <img onclick='document.getElementById("cat_f").style.display = "none"' width="200" height="200" src ="https://loremflickr.com/100/100?random=6"> </amp-img>
+            </div>
+            <div id="cat_g" class="box">
+                    <img onclick='document.getElementById("cat_g").style.display = "none"' width="200" height="200" src ="https://loremflickr.com/100/100?random=7"> </amp-img>
+            </div>
+            <div id="cat_h" class="box">
+                    <img onclick='document.getElementById("cat_h").style.display = "none"' width="200" height="200" src ="https://loremflickr.com/100/100?random=8"> </amp-img>
+            </div>
+            <div id="cat_i" class="box">
+                    <img onclick='document.getElementById("cat_i").style.display = "none"' width="200" height="200" src ="https://loremflickr.com/100/100?random=9"> </amp-img>
+            </div>
+    </div>
+    <p><a href="./index.html">比較</a></p>   
+  </body>
+</html>
