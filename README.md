@@ -2,6 +2,9 @@
 
 AMP(Accelerated Mobile Pages)の高速感を体験したくなったのでつくってしまった
 
+確認用イメージ
+https://loremflickr.com/
+
 
 ### DEMO
 
